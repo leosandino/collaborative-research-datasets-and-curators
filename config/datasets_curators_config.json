@@ -1,0 +1,25 @@
+{
+    "meta": {
+        "version": "v1",
+        "app_name": "Collaborative Research Datasets and Curators",
+        "log_prefix": "datasets_curators"
+    },
+    "database": {
+        "name": "collaborative_research_db",
+        "pool": {
+            "name": "datasets_curators_pool",
+            "size": 5,
+            "reset_session": true,
+            "use_pure": true
+        },
+        "connection": {
+            "config": {
+                "database": "collaborative_research_db",
+                "user": "root",
+                "password": "YOUR_MYSQL_PASSWORD_HERE",
+                "host": "localhost",
+                "port": 3306
+            }
+        }
+    }
+}

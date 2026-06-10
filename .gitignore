@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Pipenv / virtual environments
+.venv/
+venv/
+ENV/
+env/
+Pipfile.lock
+
+# Logs
+logs/
+*.log
+
+# App-generated files
+app_settings.json
+
+# MySQL / Database credentials - NEVER commit credentials!
+# config/*.json is committed with placeholder values only
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage
